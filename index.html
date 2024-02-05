@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="website icon" type="jpg" href="anim.jpg">
+    <style>
+        body{
+            background-image: url(naruto.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+        form{
+            width: 60px;
+        }
+        .ab{
+            position: relative; left: 600px; top: 200px;
+            backdrop-filter: blur(10px);
+            width: 280px;
+        }
+        fieldset{
+            height: 300px;
+            width: 250px;
+        }
+        input{
+            width: 200px;
+            margin-bottom: 20px;
+            height: 25px;
+            background: transparent; background-color: rgba(0,0,0,0)
+            color:aliceblue;
+        }
+        button{
+         width: 80px;
+        background-color: blue;
+        color: beige;
+        border-radius: 5px;    
+    }
+        #a1{
+            position: relative; left: 60px;
+        }
+        .line{
+            border: 1px solid black;
+            width: 250px;
+            margin-top: 30px;
+        }
+        legend{
+            color: beige;
+        }
+        ::placeholder{
+            color: bisque;
+        }
+        h1{
+            text-align: center;
+            color: bisque;
+        }
+        .matter{
+            color: bisque;
+        }
+           #abc{
+            color: bisque;
+           }
+        </style>
+</head>
+<body>
+    <div class="ab">
+    <form>
+        <fieldset>
+            <div>
+                <h1>login-form</h1>
+            <input type="email" placeholder="gmail/number" id="input1" required>
+            </div>
+            <div>
+            <input type="password" placeholder="password" id="input2">
+            </div>
+            <div class="button1">
+            <button> <a href="anime.html" id="abc">login</a></button>
+            <a href="#" id="a1">forgot password</a>
+            </div>
+            <div class="line"> </div>
+            <div class="matter">
+                Don't have an account?<a href="#">create account</a>
+            </div>
+            </fieldset>
+            </form>
+            </div>
+</body>
+</html>
