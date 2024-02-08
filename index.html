@@ -1,89 +1,188 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+
+        <title>Document</title>
+
     <link rel="website icon" type="jpg" href="anim.jpg">
-    <style>
-        body{
-            background-image: url(naruto.jpg);
+
+<style>
+
+body{
+
+            background-image: url(bokka.jpeg);
+
             background-repeat: no-repeat;
-            background-size: 100%;
+
+            background-size:cover;
+
             background-attachment: fixed;
+
+            
+
         }
+
         form{
-            width: 60px;
+
+            width: 60vw;
+
         }
+
         .ab{
-            position: relative; left: 600px; top: 200px;
-            backdrop-filter: blur(10px);
-            width: 26;
+
+            display: flex;
+
+            justify-content:center ;
+
+            align-items: center; 
+
+        position: relative; left: 37.5vw; top: 28vh;
+
+        backdrop-filter: blur(10%);
+
+            width: 23vw;
+
         }
+
         fieldset{
+
             height: 300px;
+
             width: 250px;
+
         }
+
         input{
+
             width: 200px;
+
             margin-bottom: 20px;
+
             height: 25px;
+
             background: transparent; background-color: rgba(0,0,0,0);
-            color:yellow;
+
+            color:white;
         }
+
         button{
-         width: 80px;
-        background-color: blue;
+
+            width: 80px;
+
+         background-color: blue;
+
         color: beige;
+
         border-radius: 5px;    
+
     }
+
         #a1{
+
             position: relative; left: 60px;
+            color: red;
         }
+
         .line{
+
             border: 1px solid black;
+
             width: 250px;
+
             margin-top: 30px;
+
         }
+
         legend{
-            color: beige;
+
+            color: rgb(248, 248, 0);
+
         }
-        ::placeholder{
-            color: bisque;
-        }
+::placeholder{
+    color: gold;
+}
         h1{
+
             text-align: center;
+
             color: bisque;
+
+        }
+
+        #mg{
+
+       color: red;
+
+        }
+
+        #abc{
+
+            color: bisque;
+
+        }
+
+        h1{
+            color: gold;   
+          -webkit-text-stroke:0.5px red;
         }
         .matter{
-            color: bisque;
+            color: gold;
         }
-           #abc{
-            color: bisque;
-           }
-        </style>
+
+ </style>
+
 </head>
+
 <body>
+
     <div class="ab">
-    <form>
+
+      
+
         <fieldset>
-            <div>
+
+            <div class="banana">
+
                 <h1>login-form</h1>
-            <input type="email" placeholder="gmail/number" id="input1" required>
-            </div>
+
+                <input type="email" placeholder="gmail/number" id="input1" required>
+
+        </div>
+
             <div>
-            <input type="password" placeholder="password" id="input2">
-            </div>
+
+                <input type="password" placeholder="password" id="input2">
+
+        </div>
+
             <div class="button1">
-            <button> <a href="anime.html" id="abc">login</a></button>
+
+                <button> <a href="anime.html" id="abc">login</a></button>
+
             <a href="#" id="a1">forgot password</a>
-            </div>
+
+        </div>
+
             <div class="line"> </div>
+
             <div class="matter">
-                Don't have an account?<a href="#">create account</a>
+
+                Don't have an account?<a href="#" id="mg">create account</a>
+
             </div>
-            </fieldset>
-            </form>
-            </div>
-</body>
+
+        </fieldset>
+
+       
+
+        </div>
+
+        </body>
+
 </html>
